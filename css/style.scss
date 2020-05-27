@@ -995,7 +995,7 @@ li {
 @media screen and (max-width: 499px) {
 
     .inner {
-        width: 320px !important;
+        width: 300px !important;
     }
     .navBar ul {
         @include size(100%);
@@ -1066,6 +1066,9 @@ li {
         }
     }
     .header {
+        h1 {
+            font-size: 40px;
+        }
         ul {
             flex-direction: column;
             bottom: 20% !important;
@@ -1089,7 +1092,7 @@ li {
             height: 1000px !important;
             flex-direction: column;
             .card {
-                width: 400px !important;
+                width: 300px !important;
                 height: 300px !important;
                 &::before {
                     border: 5px solid $mainBlue !important;
@@ -1099,7 +1102,7 @@ li {
     }
     .intro {
         .inner {
-            width: 320px !important;   
+            width: 300px !important;   
         }
         .title {
             h4 {
@@ -1107,13 +1110,13 @@ li {
             }
         }
         .introBox {
-            width: 450px !important;
+            width: 300px !important;
             .imgBox {
                 display: none !important;
                 flex: 0;    
             }
             .infos {
-                width: 350px !important;
+                width: 300px !important;
                 h5 {
                     font-size: 14px;
                 }
@@ -1139,7 +1142,7 @@ li {
         }
         h4 {
             margin-top: 30px !important;
-            width: 300px !important;
+            width: 280px !important;
             font-size: 16px;
             span {
                 margin-right: 32px !important;
@@ -1148,7 +1151,8 @@ li {
     }
     .awards {
         .awardBox {
-            width: 320px !important;
+            width: 300px !important;
+            border-radius: 10px;
             .title {
                 width: 100% !important;
                 background-color: rgba($mainBlue,.93);

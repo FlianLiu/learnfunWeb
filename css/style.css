@@ -1602,7 +1602,7 @@ li {
   }
   .navBar ul.hide .close {
     position: fixed;
-    right: 50px;
+    right: 5vw;
     top: 20px;
   }
   .navBar ul.hide .close::before {

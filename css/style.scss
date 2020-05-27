@@ -1052,7 +1052,7 @@ li {
             }
             .close {
                 position: fixed;
-                right: 50px;
+                right: 5vw;
                 top: 20px;
                 &::before {
                     transform: translate(-50%,calc(-50% + 2.5px));

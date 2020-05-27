@@ -995,7 +995,7 @@ li {
 @media screen and (max-width: 499px) {
 
     .inner {
-        width: 300px !important;
+        width: 95vw !important;
     }
     .navBar ul {
         @include size(100%);
@@ -1067,7 +1067,7 @@ li {
     }
     .header {
         h1 {
-            font-size: 40px;
+            font-size: 36px !important;
         }
         ul {
             flex-direction: column;
@@ -1092,7 +1092,7 @@ li {
             height: 1000px !important;
             flex-direction: column;
             .card {
-                width: 300px !important;
+                width: 95vw !important;
                 height: 300px !important;
                 &::before {
                     border: 5px solid $mainBlue !important;
@@ -1102,7 +1102,7 @@ li {
     }
     .intro {
         .inner {
-            width: 300px !important;   
+            width: 95vw !important;   
         }
         .title {
             h4 {
@@ -1110,13 +1110,13 @@ li {
             }
         }
         .introBox {
-            width: 300px !important;
+            width: 95vw !important;
             .imgBox {
                 display: none !important;
                 flex: 0;    
             }
             .infos {
-                width: 300px !important;
+                width: 95vw !important;
                 h5 {
                     font-size: 14px;
                 }
@@ -1142,7 +1142,7 @@ li {
         }
         h4 {
             margin-top: 30px !important;
-            width: 280px !important;
+            width: 80vw !important;
             font-size: 16px;
             span {
                 margin-right: 32px !important;
@@ -1151,10 +1151,10 @@ li {
     }
     .awards {
         .awardBox {
-            width: 300px !important;
+            width: 95vw !important;
             border-radius: 10px;
             .title {
-                width: 100% !important;
+                width: 95vw !important;
                 background-color: rgba($mainBlue,.93);
                 z-index: 1;
                 opacity: 0;
@@ -1167,7 +1167,7 @@ li {
                 }
             }
             .infos {
-                width: 100% !important;
+                width: 95vw !important;
                 padding-left: 25px;
                 h5 {
                     font-size: 12px;

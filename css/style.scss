@@ -995,7 +995,7 @@ li {
 @media screen and (max-width: 499px) {
 
     .inner {
-        width: 95vw !important;
+        width: 90vw !important;
     }
     .navBar ul {
         @include size(100%);
@@ -1020,7 +1020,7 @@ li {
             @include size(50px);
             cursor: pointer;
             position: absolute;
-            right: 50px;
+            right: 5vw;
             top: 20px;
             &:hover {
                 &::before,&::after {
@@ -1067,7 +1067,10 @@ li {
     }
     .header {
         h1 {
-            font-size: 36px !important;
+            font-size: 40px !important;
+            &:nth-child(3) {
+                font-size: 34px !important;
+            }
         }
         ul {
             flex-direction: column;
@@ -1116,9 +1119,10 @@ li {
                 flex: 0;    
             }
             .infos {
-                width: 95vw !important;
+                width: auto !important;
                 h5 {
                     font-size: 14px;
+                    letter-spacing: 3px;
                 }
             }
         }
@@ -1138,11 +1142,12 @@ li {
     }
     .envir {
         h1 {
-            font-size: 32px;
+            font-size: 26px;
         }
         h4 {
             margin-top: 30px !important;
-            width: 80vw !important;
+            width: 65vw !important;
+            letter-spacing: 5px !important;
             font-size: 16px;
             span {
                 margin-right: 32px !important;

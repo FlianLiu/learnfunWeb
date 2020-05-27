@@ -1532,7 +1532,7 @@ li {
 
 @media screen and (max-width: 499px) {
   .inner {
-    width: 95vw !important;
+    width: 90vw !important;
   }
   .navBar ul {
     width: 100%;
@@ -1566,7 +1566,7 @@ li {
     height: 50px;
     cursor: pointer;
     position: absolute;
-    right: 50px;
+    right: 5vw;
     top: 20px;
   }
   .navBar ul .close:hover::before, .navBar ul .close:hover::after {
@@ -1616,7 +1616,10 @@ li {
     bottom: 10%;
   }
   .header h1 {
-    font-size: 36px !important;
+    font-size: 40px !important;
+  }
+  .header h1:nth-child(3) {
+    font-size: 34px !important;
   }
   .header ul {
     -webkit-box-orient: vertical;
@@ -1670,10 +1673,11 @@ li {
             flex: 0;
   }
   .intro .introBox .infos {
-    width: 95vw !important;
+    width: auto !important;
   }
   .intro .introBox .infos h5 {
     font-size: 14px;
+    letter-spacing: 3px;
   }
   .course {
     height: calc(1900px + 300px) !important;
@@ -1692,11 +1696,12 @@ li {
             flex: 100%;
   }
   .envir h1 {
-    font-size: 32px;
+    font-size: 26px;
   }
   .envir h4 {
     margin-top: 30px !important;
-    width: 80vw !important;
+    width: 65vw !important;
+    letter-spacing: 5px !important;
     font-size: 16px;
   }
   .envir h4 span {

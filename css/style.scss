@@ -936,6 +936,15 @@ li {
                 margin-right: 32px !important;
             }
         }
+        ul {
+            flex-direction: row !important;
+            top: 80% !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            li {
+                margin-right: 30px;
+            }
+        }
     }
     .awards {
         .awardBox {
@@ -1067,17 +1076,18 @@ li {
     }
     .header {
         h1 {
-            font-size: 40px !important;
-            &:nth-child(3) {
-                font-size: 34px !important;
-            }
+            font-size: 34px !important;
+        }
+        h4 {
+            font-size: 20px !important;
         }
         ul {
             flex-direction: column;
             bottom: 20% !important;
             li {
+                transform: scale(0.8);
                 margin-right: 0px !important;
-                margin-bottom: 40px;
+                margin-bottom: 25px;
             }
         }
     }
@@ -1141,6 +1151,15 @@ li {
         }
     }
     .envir {
+        .tag {
+            width: 100%;
+            background-color: rgba($mainBlue,.5) !important;
+            h3 {
+                text-align: center;
+                font-size: 24px;
+                opacity: 0.9;
+            }
+        }
         h1 {
             font-size: 26px;
         }
@@ -1151,6 +1170,15 @@ li {
             font-size: 16px;
             span {
                 margin-right: 32px !important;
+            }
+        }
+        ul {
+            flex-direction: row !important;
+            top: 80% !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            li {
+                margin-right: 30px;
             }
         }
     }
@@ -1203,10 +1231,79 @@ li {
                 }
                 .icons {
                     margin-top: 10px;
+                    transform: scale(0.9);
+                    &:hover {
+                        transform: scale(0.92);
+                    }
                 }
             }
 
         }
     }
 
+}
+
+@media screen and (max-height: 650px) {
+    h1 {
+        font-size: 34px !important;
+    }
+    .navBar {
+        ul li {
+            h4 {
+                font-size: 32px !important;
+            }
+            margin-bottom: 20px !important;
+        }
+    }
+    .header {
+        .slogan {
+            h1 {
+                margin-bottom: 30px !important;
+            }
+            h4 {
+                font-size: 18px !important;
+                line-height: 40px !important;
+            } 
+        }
+        .slide3 {
+            h1 {
+                font-size: 28px !important;
+            }
+        }
+    }
+    .intro {
+        .title,h1 {
+            margin-bottom: 10px !important;
+        }
+        .introBox {
+            height: 300px !important;
+            h3 {
+                font-size: 24px !important;
+                margin-bottom: 10px !important;
+            }
+        }
+    }
+    .award {
+        h1 {
+            margin-bottom: 10px !important;
+        }
+        .awardBox {
+            height: 130px !important;
+            border-radius: 10px !important;
+            margin-bottom: 10px !important;
+        }
+    }
+    .footer {
+        .maps {
+            padding-top: 20px;
+            h5 {
+                font-size: 12px;
+            }
+        }
+        .infos {
+            h5 {
+                font-size: 14px;
+            }
+        }
+    }
 }

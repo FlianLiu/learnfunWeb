@@ -1476,6 +1476,19 @@ li {
   .envir h4 span {
     margin-right: 32px !important;
   }
+  .envir ul {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    top: 80% !important;
+    left: 50% !important;
+    -webkit-transform: translateX(-50%) !important;
+            transform: translateX(-50%) !important;
+  }
+  .envir ul li {
+    margin-right: 30px;
+  }
   .awards .awardBox {
     width: 400px !important;
   }
@@ -1616,10 +1629,10 @@ li {
     bottom: 10%;
   }
   .header h1 {
-    font-size: 40px !important;
-  }
-  .header h1:nth-child(3) {
     font-size: 34px !important;
+  }
+  .header h4 {
+    font-size: 20px !important;
   }
   .header ul {
     -webkit-box-orient: vertical;
@@ -1629,8 +1642,10 @@ li {
     bottom: 20% !important;
   }
   .header ul li {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
     margin-right: 0px !important;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
   }
   .ideas {
     background-image: url(../images/bg_icons.png);
@@ -1695,6 +1710,15 @@ li {
         -ms-flex: 100%;
             flex: 100%;
   }
+  .envir .tag {
+    width: 100%;
+    background-color: rgba(0, 18, 61, 0.5) !important;
+  }
+  .envir .tag h3 {
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.9;
+  }
   .envir h1 {
     font-size: 26px;
   }
@@ -1706,6 +1730,19 @@ li {
   }
   .envir h4 span {
     margin-right: 32px !important;
+  }
+  .envir ul {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    top: 80% !important;
+    left: 50% !important;
+    -webkit-transform: translateX(-50%) !important;
+            transform: translateX(-50%) !important;
+  }
+  .envir ul li {
+    margin-right: 30px;
   }
   .awards .awardBox {
     width: 95vw !important;
@@ -1759,6 +1796,61 @@ li {
   }
   .footer .inner .infos .icons {
     margin-top: 10px;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  .footer .inner .infos .icons:hover {
+    -webkit-transform: scale(0.92);
+            transform: scale(0.92);
+  }
+}
+
+@media screen and (max-height: 650px) {
+  h1 {
+    font-size: 34px !important;
+  }
+  .navBar ul li {
+    margin-bottom: 20px !important;
+  }
+  .navBar ul li h4 {
+    font-size: 32px !important;
+  }
+  .header .slogan h1 {
+    margin-bottom: 30px !important;
+  }
+  .header .slogan h4 {
+    font-size: 18px !important;
+    line-height: 40px !important;
+  }
+  .header .slide3 h1 {
+    font-size: 28px !important;
+  }
+  .intro .title, .intro h1 {
+    margin-bottom: 10px !important;
+  }
+  .intro .introBox {
+    height: 300px !important;
+  }
+  .intro .introBox h3 {
+    font-size: 24px !important;
+    margin-bottom: 10px !important;
+  }
+  .award h1 {
+    margin-bottom: 10px !important;
+  }
+  .award .awardBox {
+    height: 130px !important;
+    border-radius: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  .footer .maps {
+    padding-top: 20px;
+  }
+  .footer .maps h5 {
+    font-size: 12px;
+  }
+  .footer .infos h5 {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=style.css.map */

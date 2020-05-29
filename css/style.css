@@ -1893,7 +1893,7 @@ li {
   .navBar .close {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
-    top: 15px !important;
+    top: 20px !important;
   }
   .header .slogan h1 {
     margin-bottom: 30px !important;
@@ -1947,7 +1947,7 @@ li {
   .navBar .close {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
-    top: 15px !important;
+    top: 20px !important;
   }
   .header .slogan h1 {
     margin-bottom: 10px !important;

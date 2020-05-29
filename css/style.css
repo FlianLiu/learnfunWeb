@@ -1792,6 +1792,7 @@ li {
   }
   .envir h1 {
     font-size: 26px;
+    text-align: center;
   }
   .envir h4 {
     margin-top: 30px !important;
@@ -1808,12 +1809,15 @@ li {
         -ms-flex-direction: row !important;
             flex-direction: row !important;
     top: 80% !important;
-    left: 50% !important;
+    left: calc(50% + 15px) !important;
     -webkit-transform: translateX(-50%) !important;
             transform: translateX(-50%) !important;
   }
   .envir ul li {
     margin-right: 30px;
+  }
+  .envir .slide4 h1 {
+    font-size: 28px !important;
   }
   .awards .awardBox {
     width: 95vw !important;

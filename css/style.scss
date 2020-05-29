@@ -1212,6 +1212,7 @@ li {
         }
         h1 {
             font-size: 26px;
+            text-align: center;
         }
         h4 {
             margin-top: 30px !important;
@@ -1225,10 +1226,15 @@ li {
         ul {
             flex-direction: row !important;
             top: 80% !important;
-            left: 50% !important;
+            left: calc(50% + 15px) !important;
             transform: translateX(-50%) !important;
             li {
                 margin-right: 30px;
+            }
+        }
+        .slide4 {
+            h1 {
+                font-size: 28px !important;
             }
         }
     }
